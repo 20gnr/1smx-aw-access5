@@ -1,0 +1,46 @@
+body {
+    font-family: Inter, Arial;
+    color: white;
+    padding: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.header {
+    background-color: #003694;
+}
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+nav {
+    background-color: #003694;
+    padding: 10px;
+  }
+  
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #003694;
+    padding: 10px;
+}

@@ -1,0 +1,44 @@
+.index {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valors {
+    text-align: center;
+}
+
+.valors-header {
+    padding: 10px;
+    background-color: #003694;
+}
+
+.valors-numeros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valors-capses {
+    width: 33%;
+    height: 300px;
+    background-color: #003694;
+    color: white;
+}
+
+.valors-capses p {
+    text-align: justify;
+    margin: 30px;
+}
+
+numerosgrossos {
+    font-size: 60px;
+    font-weight: bold;
+    -moz-font-feature-settings: "ccmp";
+    -webkit-font-feature-settings: "ccmp";
+    font-feature-settings: "ccmp";
+}

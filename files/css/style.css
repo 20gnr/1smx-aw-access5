@@ -26,18 +26,22 @@ body::-webkit-scrollbar {
 nav {
     background-color: #003694;
     padding: 10px;
-  }
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
   
 ul {
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-  
-a {
-    color: white;
-    text-decoration: none;
 }
 
 footer {

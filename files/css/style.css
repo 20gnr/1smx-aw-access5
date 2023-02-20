@@ -38,13 +38,25 @@ nav a:hover {
 }
   
 ul {
+    margin-left: -40px;
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 footer {
     background-color: #003694;
     padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+footer a {
+    color: white;
+    font-weight: normal;
+}
+a:visited {
+    color: white;
 }

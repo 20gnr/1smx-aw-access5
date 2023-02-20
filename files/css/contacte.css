@@ -1,0 +1,56 @@
+.contacte {
+    background-image: url(/files/img/fons-quisom.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+}
+
+.contacte h1 {
+    text-align: center;
+}
+
+.contacte h4 {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 40px;
+    line-height: 0.8cm;
+}
+
+.contacte-capses {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.contacte-dades {
+    width: 40%;
+    display: inline-block;
+}
+
+.contacte-capses a {
+    color: white;
+}
+
+.contacte-formulari {
+    width: 60%;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input {
+    border: 2px;
+    background-color:rgb(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    width: 250px;
+    height: 25px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    background-color:rgb(255, 255, 255, 0.5);
+}

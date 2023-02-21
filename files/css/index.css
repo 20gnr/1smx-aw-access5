@@ -87,3 +87,53 @@ numerosgrossos {
     font-feature-settings: "ccmp";
 }
 
+.entitats {
+    background-color: #002564;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    place-items: center;
+    padding: 10px;
+}
+
+.entitats h4 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -5px;
+    margin-bottom: 80px;
+}
+
+.entitats p {
+    font-weight: bold;
+}
+
+.entitats-contenidor {
+    width: 90%;
+    height: auto;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.entitats-entitat {
+    width: 25%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -60px;
+}
+
+.entitats-entitat img{
+    width: 100%;
+    height: 40%;
+    object-fit: contain;
+}
+
+.entitats-entitat p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.entitats-entitat a {
+    color: white;
+}

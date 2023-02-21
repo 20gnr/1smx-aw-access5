@@ -1,0 +1,58 @@
+.quefeim {
+    width: 100%;
+    display: grid;
+    background-image: url(/files/img/fondos/fons-quisom.jpg);
+    background-size: cover;
+}
+
+.quefeim-info {
+    width: 70%;
+    margin: auto;
+}
+
+.quefeim-header {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.quefeim-header h1 {
+    text-align: center;
+}
+
+th {
+    background-color: rgb(255, 255, 255, 0.5);
+    border: 10px;
+    border-color: black;
+}
+
+.quefeim-taula {
+    width: 80%;
+    margin: auto;
+}
+
+.quefeim-taula h3 {
+    text-align: center;
+}
+
+.quefeim-taula th {
+    height: 40px;
+}
+
+.quefeim-taula td {
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.columna1 {
+    width: 20%;
+}
+
+.columna4 {
+    width: 20%;
+}
+
+.filadescripcio p {
+    margin: 10px;
+    text-align: justify;
+}

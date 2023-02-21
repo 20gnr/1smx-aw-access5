@@ -1,5 +1,5 @@
 .contacte {
-    background-image: url(/files/img/fons-quisom.jpg);
+    background-image: url(/files/img/fondos/fons-quisom.jpg);
     background-size: cover;
     display: inline-block;
     width: 100%;
@@ -17,7 +17,7 @@
 }
 
 .contacte-capses {
-    width: 80%;
+    width: 70%;
     height: auto;
     display: flex;
     margin: auto;
@@ -26,6 +26,15 @@
 .contacte-dades {
     width: 40%;
     display: inline-block;
+    align-items: center;
+}
+
+.contacte-dades p {
+    line-height: 0.8cm;
+}
+
+.contacte-dades a {
+    font-weight: 500;
 }
 
 .contacte-capses a {
@@ -52,5 +61,27 @@ input {
 textarea {
     width: 400px;
     height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color:rgb(255, 255, 255, 0.5);
+}
+
+button {
+    font-weight: bold;
+    color: #ffffff;
+    border: #ffffff;
+    background-color: #003694;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 15px;
+}
+
+button:hover {
+    font-weight: bold;
+    color: #003694;
+    border: #003694;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    cursor: pointer;
 }

@@ -1,0 +1,27 @@
+.transport5 {
+    background-image: url("../../files/img/fondos/fons-transport5.jpg");
+    background-size: cover;
+    display: grid;
+}
+
+.transport5-diagrama {
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.transport5-text {
+    text-align: center;
+    
+}
+
+.transport5-diagrama-diagrama {
+    width: 40%;
+    height: auto;
+}
+
+.transport5-diagrama-frame {
+    width: 60%;
+    height: auto;
+}

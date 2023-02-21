@@ -1,5 +1,5 @@
 .nosaltres {
-    background-image: url(/files/img/fondos/fons-quisom.jpg);
+    background-image: url("../../files/img/fondos/fons-quisom.jpg");
     background-size: cover;
 }
 
